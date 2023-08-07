@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>electronics</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <div class="wrapper">
+        <header>
+            <div class="header">
+                <div id="header-top"></div>
+                <div id="header-mid" class="d-flex justify-content-between">
+                    <a href="index.html"><h1>LOGO</h1></a>
+                    <div class="search-bar"  style="background-color: white; height: fit-content; border-radius: 5rem;">
+                        <div class="search-box d-flex justify-content-between">
+                            <div class="search-elements d-flex">
+                                <div style="margin-left: 15px;">
+                                    <svg class="icon-input" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.9 11.731C11.8 11.731 11.8 11.731 11.9 11.731C11.8 11.8304 11.8 11.8304 11.8 11.8304C11.3 12.3275 10.7 12.7251 9.9 13.0234C9.2 13.3216 8.4 13.4211 7.6 13.4211C6.8 13.4211 6 13.2222 5.3 12.924C4.6 12.6257 4 12.2281 3.4 11.6316C2.9 11.1345 2.4 10.4386 2.1 9.74269C1.8 9.1462 1.7 8.45029 1.7 7.65497C1.7 6.85965 1.9 6.06433 2.2 5.36842C2.5 4.5731 2.9 3.97661 3.4 3.38012C4 2.88304 4.6 2.48538 5.3 2.18713C6 1.88889 6.8 1.69006 7.6 1.69006C8.4 1.69006 9.2 1.88889 9.9 2.18713C10.6 2.48538 11.3 2.88304 11.8 3.47953C12.3 3.97661 12.7 4.67251 13.1 5.36842C13.4 6.06433 13.6 6.76023 13.6 7.65497C13.6 8.45029 13.4 9.24561 13.1 9.94152C12.8 10.538 12.4 11.1345 11.9 11.731ZM16.7 15.4094L13.6 12.3275C14.1 11.6316 14.5 10.9357 14.8 10.1404C15.1 9.34503 15.2 8.45029 15.2 7.55556C15.2 6.46199 15 5.46784 14.6 4.5731C14.2 3.67836 13.7 2.88304 13 2.18713C12.3 1.49123 11.5 0.994152 10.6 0.596491C9.7 0.19883 8.7 0 7.6 0C6.6 0 5.6 0.19883 4.6 0.596491C3.7 0.994152 2.9 1.49123 2.2 2.18713C1.5 2.88304 1 3.67836 0.6 4.67251C0.2 5.56725 0 6.5614 0 7.65497C0 8.64912 0.2 9.64327 0.6 10.6374C1 11.5322 1.6 12.3275 2.3 13.0234C3 13.7193 3.8 14.2164 4.7 14.7134C5.6 15.0117 6.6 15.2105 7.6 15.2105C8.5 15.2105 9.4 15.1111 10.2 14.8129C11 14.5146 11.8 14.117 12.4 13.6199L15.5 16.7018C15.7 16.9006 15.9 17 16.1 17C16.3 17 16.5 16.9006 16.7 16.7018C16.9 16.5029 17 16.3041 17 16.1053C17 15.807 16.9 15.6082 16.7 15.4094Z" fill="#999999"></path>
+                                    </svg>
+                                </div>
+                                <form>
+                                    <input class="search-input" type="text" autocomplete="off" maxlength="128", placeholder="I'm looking for...">
+                                    <button class="btn btn-primary search-btn">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icons d-flex">
+                        <a class="account-login" href="#">
+                            <i class="material-symbols-outlined">account_circle</i>
+                        </a>
+                        <a class="cart" href="#">
+                            <i class="material-symbols-outlined">shopping_cart</i>
+                        </a>
+                    </div>
+                </div>
+                <div class="gap"></div>
+                <div id="header-bottom">
+                    <div class="nav-links">
+                        <nav>
+                            <ul class="d-flex justify-content-center">
+                                <li><a href="#">HOME</a><i class="arrow"></i></li>
+                                <li><a href="#">SHOP</a><i class="arrow"></i></li>
+                                <li><a href="#">PRODUCT</a><i class="arrow"></i></li>
+                                <li><a href="#">BLOG</a><i class="arrow"></i></li>
+                                <li><a href="#">FEATURED</a><i class="arrow"></i></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fadesx">
+                <div class="numbertext">
+                    <h2>Gamepad</h2>
+                    <h2>Top Gaming Controller</h2>
+                    <p>50% discount on products</p>
+                    <a href="#" class="btn btn-primary">Shop now</a>
+                </div>
+                <img src="https://cdn.shopify.com/s/files/1/0136/8467/0523/files/slider-3_1512x.jpg?v=1656490844" style="width:100%">
+            </div>
+            
+            <div class="mySlides fadesx">
+                <div class="numbertext">
+                    <h2>Gamepad</h2>
+                    <h2>Top Gaming Controller</h2>
+                    <p>50% discount on products</p>
+                    <a href="#" class="btn btn-primary">Shop now</a>
+                </div>
+                <img src="https://cdn.shopify.com/s/files/1/0136/8467/0523/files/slider-1_1512x.jpg?v=1656490821" style="width:100%">
+            </div>
+            
+            <div class="mySlides fadesx">
+                <div class="numbertext">
+                    <h2>Gamepad</h2>
+                    <h2>Top Gaming Controller</h2>
+                    <p>50% discount on products</p>
+                    <a href="#" class="btn btn-primary">Shop now</a>
+                </div>
+                    <img src="https://cdn.shopify.com/s/files/1/0136/8467/0523/files/slider-2_1512x.jpg?v=1656490833" style="width:100%">
+                </div>
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <script src="slideshow.js" defer></script>
+            <div class="gallery-1 d-flex">
+                <div class="box">
+                    <div class="boxtext">
+                    <h4>Gamepad</h4>
+                    <h4>Save upto 30%</h4>
+                    <br>
+                    <a href="#">shop now</a>
+                    </div>
+                    <img src="https://umino-demo.myshopify.com/cdn/shop/files/1_e1.jpg?v=1680835789">
+                </div>
+                <div class="box">
+                    <div class="boxtext">
+                        <h4>Gamepad</h4>
+                        <h4>Save upto 30%</h4>
+                        <br>
+                        <a href="#">shop now</a>
+                        </div>
+                    <img src="https://umino-demo.myshopify.com/cdn/shop/files/2_e1.jpg?v=1680835789">
+                </div>
+                <div class="box">
+                    <div class="boxtext">
+                        <h4>Gamepad</h4>
+                        <h4>Save upto 30%</h4>
+                        <br>
+                        <a href="#">shop now</a>
+                        </div>
+                    <img src="https://umino-demo.myshopify.com/cdn/shop/files/3_e1.jpg?v=1680835788">
+                </div>
+            </div>
+            </div>
+        </main>
+        <footer>
+            <div class="boxes d-flex">
+                <div class="contactus">
+                    <h5>Contact us</h5>
+                    <p clas="text">Got Question? Call us 24/7</p>
+                    <h2><a href="#">+123-456-789</a></h2>
+                    <p>268 St, South New York/NY 98944, United States.</p>
+                    <a href="#">www.test.com</a>
+                </div>
+                <div class="columns">
+                    <h6>Company</h6>
+                    <ul>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">Our stores</a>
+                        </li>
+                        <li>
+                            <a href="#">My account</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="columns">
+                    <h6>Customer service</h6>
+                    <ul>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">Our stores</a>
+                        </li>
+                        <li>
+                            <a href="#">My account</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="columns">
+                    <h6>Shop by category</h6>
+                    <ul>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">Our stores</a>
+                        </li>
+                        <li>
+                            <a href="#">My account</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="columns">
+                    <h6>Useful links</h6>
+                    <ul>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">Our stores</a>
+                        </li>
+                        <li>
+                            <a href="#">My account</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
